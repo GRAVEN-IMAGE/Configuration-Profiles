@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadUUID</key>
+	<string>5312D107-393D-493C-A8D2-14D6E02A0967</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadOrganization</key>
+	<string>The Globe And Mail</string>
+	<key>PayloadIdentifier</key>
+	<string>5312D107-393D-493C-A8D2-14D6E02A0967</string>
+	<key>PayloadDisplayName</key>
+	<string>NoMAD Prefs v3.4</string>
+	<key>PayloadDescription</key>
+	<string>Managed Preferences for NoMAD</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadEnabled</key>
+	<true/>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>SignInWindowAlert</key>
+			<string>1</string>
+			<key>SignInWindowAlertTime</key>
+			<integer>5</integer>
+			<key>SignInWindowOnLaunch</key>
+			<true/>
+			<key>SignInWindowOnLaunchExclusions</key>
+			<array>
+				<string>macadmin</string>
+				<string>test</string>
+			</array>
+			<key>UseKeychainPrompt</key>
+			<true/>
+			<key>PayloadOrganization</key>
+			<string>The Globe And Mail</string>
+			<key>PayloadDisplayName</key>
+			<string>Custom</string>
+			<key>PayloadIdentifier</key>
+			<string>7D5A6BCB-1CFD-44BC-ADCF-B511A63F69E3</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>7D5A6BCB-1CFD-44BC-ADCF-B511A63F69E3</string>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.trusourcelabs.NoMAD</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>SecondsToRenew</key>
+								<integer>7200</integer>
+								<key>PayloadDescription</key>
+								<string>Managed Preferences for NoMAD</string>
+								<key>MessagePasswordChangePolicy</key>
+								<string>Passwords need to be 8 characters with at least 3 of the following: an uppercase letter, a lowercase letter, a number or a symbol. Plese see http://myglobe/OurPeople/Pages/PasswordPolicy20081017.aspx for the complete policy.</string>
+								<key>PasswordPolicy</key>
+								<dict>
+									<key>minNumber</key>
+									<string>1</string>
+									<key>minLength</key>
+									<string>8</string>
+									<key>minMatches</key>
+									<string>3</string>
+									<key>minUpperCase</key>
+									<string>1</string>
+									<key>minSymbol</key>
+									<string>1</string>
+									<key>minLowerCase</key>
+									<string>1</string>
+								</dict>
+								<key>PersistExpiration</key>
+								<true/>
+								<key>PayloadVersion</key>
+								<integer>1</integer>
+								<key>UseKeychain</key>
+								<true/>
+								<key>LocalPasswordSync</key>
+								<true/>
+								<key>KerberosRealm</key>
+								<string>GLOBEANDMAIL.NET</string>
+								<key>HideSignOut</key>
+								<true/>
+								<key>HidePrefs</key>
+								<true/>
+								<key>RenewTickets</key>
+								<true/>
+								<key>UPCAlert</key>
+								<true/>
+								<key>HideQuit</key>
+								<true/>
+								<key>HideRenew</key>
+								<true/>
+								<key>ADDomain</key>
+								<string>globeandmail.net</string>
+								<key>MenuGetHelp</key>
+								<string>Email IT Support</string>
+								<key>GetHelpType</key>
+								<string>URL</string>
+								<key>GetHelpOptions</key>
+								<string>mailto:itsupport@globeandmail.com?subject=Mac%20Support%20(Sent%20via%20NoMAD)</string>
+								<key>MenuGetHelp</key>
+								<string>Reuqest Remote Support</string>
+								<key>GetHelpType</key>
+								<string>URL</string>
+								<key>GetHelpOptions</key>
+								<string>https://get.teamviewer.com/6jxmw9u</string>
+								<key>UseKeychainPrompt</key>
+								<true/>
+								<key>ShowHome</key>
+								<true/>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

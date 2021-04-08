@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>ADDomain</key>
+			<string>globeandmail.net</string>
+			<key>BackgroundImage</key>
+			<string>/Library/Application Support/TGAM Apps/TGAM PreStage Enrollment/Branding/TGAM Desktop Wallpaper.png</string>
+			<key>BackgroundImageAlpha</key>
+			<integer>1</integer>
+			<key>DemobilizeUsers</key>
+			<true/>
+			<key>KeychainAddNoMAD</key>
+			<true/>
+			<key>KeychainCreate</key>
+			<true/>
+			<key>LoginLogo</key>
+			<string>/Library/Application Support/TGAM Apps/TGAM PreStage Enrollment/Branding/TGAM Logo.png</string>
+			<key>PayloadDescription</key>
+			<string>Configures NoMAD Login settings</string>
+			<key>PayloadDisplayName</key>
+			<string>NoMAD Login</string>
+			<key>PayloadIdentifier</key>
+			<string>com.github.erikberglund.ProfileCreator.D5FB4257-7219-4A5E-A4A6-38DBED0C3BEE.menu.nomad.login.ad.C2B8CA95-C6AE-4D8E-8D09-A1C3F361B792</string>
+			<key>PayloadOrganization</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>menu.nomad.login.ad</string>
+			<key>PayloadUUID</key>
+			<string>C2B8CA95-C6AE-4D8E-8D09-A1C3F361B792</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ScriptPath</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Configures Setup Assistant settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Setup Assistant</string>
+			<key>PayloadIdentifier</key>
+			<string>com.github.erikberglund.ProfileCreator.D5FB4257-7219-4A5E-A4A6-38DBED0C3BEE.com.apple.SetupAssistant.managed.ED1E4793-4CD5-4024-BE19-54F9E6CC0274</string>
+			<key>PayloadOrganization</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.SetupAssistant.managed</string>
+			<key>PayloadUUID</key>
+			<string>ED1E4793-4CD5-4024-BE19-54F9E6CC0274</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>SkipCloudSetup</key>
+			<true/>
+			<key>SkipPrivacySetup</key>
+			<true/>
+			<key>SkipScreenTime</key>
+			<true/>
+			<key>SkipSiriSetup</key>
+			<true/>
+			<key>SkipTrueTone</key>
+			<true/>
+			<key>SkipiCloudStorageSetup</key>
+			<true/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>TGAM NoMAD Login Settings</string>
+	<key>PayloadDisplayName</key>
+	<string>TGAM NoMAD Login</string>
+	<key>PayloadIdentifier</key>
+	<string>com.github.erikberglund.ProfileCreator.D5FB4257-7219-4A5E-A4A6-38DBED0C3BEE</string>
+	<key>PayloadOrganization</key>
+	<string>The Globe and Mail</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>D5FB4257-7219-4A5E-A4A6-38DBED0C3BEE</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

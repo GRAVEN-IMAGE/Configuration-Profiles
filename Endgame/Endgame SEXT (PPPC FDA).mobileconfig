@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Endgame</string>
+			<key>PayloadDisplayName</key>
+			<string>Endgame (PPPC FDA)</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.TCC.configuration-profile-policy.3A967875-6BFE-482E-9AD2-E581FD3158D4</string>
+			<key>PayloadOrganization</key>
+			<string>Endgame</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>3A967875-6BFE-482E-9AD2-E581FD3158D4</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>SystemPolicyAllFiles</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.endgame.systemextension" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "4FVLCA237T"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.endgame.systemextension</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+						<key>StaticCode</key>
+						<false/>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Provides Endgame full disk access.</string>
+	<key>PayloadDisplayName</key>
+	<string>Endgame (PPPC FDA)</string>
+	<key>PayloadIdentifier</key>
+	<string>F8AB61A4-7F7B-4DA3-8AF2-ACAC524B6CFB</string>
+	<key>PayloadOrganization</key>
+	<string>Endgame</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>0526246B-B8A0-4B57-A7E1-C12C14B55058</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

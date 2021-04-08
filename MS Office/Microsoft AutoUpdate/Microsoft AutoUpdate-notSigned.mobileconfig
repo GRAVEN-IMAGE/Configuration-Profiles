@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AcknowledgedDataCollectionPolicy</key>
+			<string>RequiredDataOnly</string>
+			<key>ChannelName</key>
+			<string>Production</string>
+			<key>DisableInsiderCheckbox</key>
+			<true/>
+			<key>EnableCheckForUpdatesButton</key>
+			<true/>
+			<key>HowToCheck</key>
+			<string>AutomaticDownload</string>
+			<key>PayloadDisplayName</key>
+			<string>Microsoft AutoUpdate</string>
+			<key>PayloadIdentifier</key>
+			<string>com.github.erikberglund.ProfileCreator.24F12238-B104-4C40-A93C-3000C713887E.com.microsoft.autoupdate2.84F46A97-5F2A-4200-9409-23A2440F9641</string>
+			<key>PayloadType</key>
+			<string>com.microsoft.autoupdate2</string>
+			<key>PayloadUUID</key>
+			<string>84F46A97-5F2A-4200-9409-23A2440F9641</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>StartDaemonOnAppLaunch</key>
+			<true/>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Microsoft AutoUpdate</string>
+	<key>PayloadIdentifier</key>
+	<string>com.github.erikberglund.ProfileCreator.24F12238-B104-4C40-A93C-3000C713887E</string>
+	<key>PayloadOrganization</key>
+	<string>The Globe and Mail</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>24F12238-B104-4C40-A93C-3000C713887E</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>NotificationSettings</key>
+			<array>
+				<dict>
+					<key>AlertType</key>
+					<integer>0</integer>
+					<key>BadgesEnabled</key>
+					<true/>
+					<key>BundleIdentifier</key>
+					<string>endgame</string>
+					<key>CriticalAlertEnabled</key>
+					<false/>
+					<key>NotificationsEnabled</key>
+					<true/>
+					<key>ShowInLockScreen</key>
+					<true/>
+					<key>ShowInNotificationCenter</key>
+					<true/>
+					<key>SoundsEnabled</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AlertType</key>
+					<integer>0</integer>
+					<key>BadgesEnabled</key>
+					<false/>
+					<key>BundleIdentifier</key>
+					<string>com.endgame.alert</string>
+					<key>CriticalAlertEnabled</key>
+					<false/>
+					<key>NotificationsEnabled</key>
+					<true/>
+					<key>ShowInLockScreen</key>
+					<false/>
+					<key>ShowInNotificationCenter</key>
+					<false/>
+					<key>SoundsEnabled</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>AlertType</key>
+					<integer>0</integer>
+					<key>BadgesEnabled</key>
+					<false/>
+					<key>BundleIdentifier</key>
+					<string>com.endgame.esensor</string>
+					<key>CriticalAlertEnabled</key>
+					<false/>
+					<key>NotificationsEnabled</key>
+					<true/>
+					<key>ShowInLockScreen</key>
+					<false/>
+					<key>ShowInNotificationCenter</key>
+					<false/>
+					<key>SoundsEnabled</key>
+					<false/>
+				</dict>
+			</array>
+			<key>PayloadDescription</key>
+			<string>Configures notifications settings for apps</string>
+			<key>PayloadDisplayName</key>
+			<string>Notifications</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.notificationsettings.CF6A6DAC-61E4-4E94-A44A-102C3108B924</string>
+			<key>PayloadOrganization</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.notificationsettings</string>
+			<key>PayloadUUID</key>
+			<string>CF6A6DAC-61E4-4E94-A44A-102C3108B924</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Block all notifications from Endgame.</string>
+	<key>PayloadDisplayName</key>
+	<string>Endgame Block Notifications</string>
+	<key>PayloadIdentifier</key>
+	<string>TGAM.D8A7F633-1E9B-442A-9C19-AE71C88A340E</string>
+	<key>PayloadOrganization</key>
+	<string>The Globe and Mail</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>2D823600-D07E-4C4F-8D6B-DAFFB625B87E</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

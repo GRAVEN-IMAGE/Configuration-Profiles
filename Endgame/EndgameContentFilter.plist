@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>FilterBrowsers</key>
+			<false/>
+			<key>FilterSockets</key>
+			<true/>
+			<key>FilterType</key>
+			<string>Plugin</string>
+			<key>Organization</key>
+			<string>Endgame</string>
+			<key>PayloadDescription</key>
+			<string>Configures content filtering settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Endgame</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.webcontent-filter.066AF184-CF91-4085-A919-F005FC899DDD</string>
+			<key>PayloadType</key>
+			<string>com.apple.webcontent-filter</string>
+			<key>PayloadUUID</key>
+			<string>066AF184-CF91-4085-A919-F005FC899DDD</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PluginBundleID</key>
+			<string>com.endgame.esensor</string>
+			<key>UserDefinedName</key>
+			<string>Endgame</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Create Endgame network content filter.</string>
+	<key>PayloadDisplayName</key>
+	<string>Endgame Network Content Filter</string>
+	<key>PayloadIdentifier</key>
+	<string>C02YG3XXJGH6-MBP.D8A7F633-1E9B-442A-9C19-AE71C88A340E</string>
+	<key>PayloadOrganization</key>
+	<string>The Globe and Mail</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>BAD88B10-0FD3-475C-92B0-00A67B372EC3</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

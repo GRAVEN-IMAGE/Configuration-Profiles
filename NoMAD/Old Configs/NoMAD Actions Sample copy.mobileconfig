@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadDisplayName</key>
+	<string>NoMAD Actions</string>
+	<key>PayloadDescription</key>
+	<string>NoMAD Actions</string>
+	<key>PayloadOrganization</key>
+	<string>The Globe and Mail</string>
+	<key>PayloadUUID</key>
+	<string>27870006-41CB-4694-A6AD-709073670851</string>
+	<key>PayloadEnabled</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadIdentifier</key>
+	<string>menu.nomad.actions</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>menu.nomad.actions</string>
+			<key>PayloadDisplayName</key>
+			<string>NoMAD Actions</string>
+			<key>PayloadDescription</key>
+			<string>Nomad Settings</string>
+			<key>PayloadOrganization</key>
+			<string>Orchard &amp; Grove</string>
+			<key>PayloadUUID</key>
+			<string>98B42AF5-4040-47D1-9F6F-A0E1D7FBFC26</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>menu.nomad.actions</string>
+			<key>Version</key>
+			<integer>1</integer>
+			<key>Actions</key>
+			<array>
+				<dict>
+					<key>Action</key>
+					<array>
+						<dict>
+							<key>Command</key>
+							<string>url</string>
+							<key>CommandOptions</key>
+							<string>https://nomad.menu</string>
+						</dict>
+					</array>
+					<key>ToolTip</key>
+					<string>Open the NoMAD Homepage in your browser</string>
+					<key>Name</key>
+					<string>NoMAD Homepage</string>
+				</dict>
+				<dict>
+					<key>Action</key>
+					<array>
+						<dict>
+							<key>Command</key>
+							<string>url</string>
+							<key>CommandOptions</key>
+							<string>https://www.office.com</string>
+						</dict>
+					</array>
+					<key>ToolTip</key>
+					<string>Open O365 now in your browser</string>
+					<key>Name</key>
+					<string>O365</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Hostname</string>
+					<key>Title</key>
+					<dict>
+						<key>Command</key>
+						<string>path</string>
+						<key>CommandOptions</key>
+						<string>/bin/hostname</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>IP Address</string>
+					<key>Title</key>
+					<dict>
+						<key>Command</key>
+						<string>path</string>
+						<key>CommandOptions</key>
+						<string>/usr/sbin/ipconfig getifaddr en0</string>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

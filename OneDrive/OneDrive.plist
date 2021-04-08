@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>FilesOnDemandEnabled</key>
+			<true/>
+			<key>FilesOnDemandPolicy</key>
+			<true/>
+			<key>OpenAtLogin</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Microsoft OneDrive</string>
+			<key>PayloadIdentifier</key>
+			<string>com.github.erikberglund.ProfileCreator.6A7B82C0-61AA-45E6-972F-378200DE4658.com.microsoft.OneDrive.E6E718A9-AFFA-4B12-961D-C166D6A870ED</string>
+			<key>PayloadOrganization</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.microsoft.OneDrive</string>
+			<key>PayloadUUID</key>
+			<string>E6E718A9-AFFA-4B12-961D-C166D6A870ED</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Tenants</key>
+			<dict>
+				<key>(MyTenantID))</key>
+				<dict>
+					<key>DefaultFolder</key>
+					<string>~/</string>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>OneDrive</string>
+	<key>PayloadIdentifier</key>
+	<string>com.github.erikberglund.ProfileCreator.6A7B82C0-61AA-45E6-972F-378200DE4658</string>
+	<key>PayloadOrganization</key>
+	<string>(MyCompany)</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>User</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>6A7B82C0-61AA-45E6-972F-378200DE4658</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

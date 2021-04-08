@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+            <key>updatePolicies</key>
+            <dict>
+                <key>global</key>
+                <dict>
+                    <key>UpdateDefault</key>
+                    <integer>0</integer>
+                </dict>
+            </dict>
+			<key>ExtensionInstallBlacklist</key>
+			<array>
+				<string>pccckmaobkjjboncdfnnofkonhgpceea</string>
+				<string>nonjdcjchghhkdoolnlbekcfllmednbl</string>
+				<string>pgeolalilifpodheeocdmbhehgnkkbak</string>
+				<string>gnamdgilanlgeeljfnckhboobddoahbl</string>
+				<string>mkdjnfblfcjkignaehgkmkjjmjjlhkon</string>
+				<string>alecjlhgldihcjjcffgjalappiifdhae</string>
+			</array>
+			<key>PayloadDescription</key>
+			<string>Configures Google Chrome settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Google Chrome</string>
+			<key>PayloadIdentifier</key>
+			<string>com.github.erikberglund.ProfileCreator.C5FB92A3-2A92-4442-9FA9-8FC724E789BF.com.google.Chrome.F29DF3BE-3525-4C6E-9BC4-44E74A907888</string>
+			<key>PayloadOrganization</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.google.Chrome</string>
+			<key>PayloadUUID</key>
+			<string>F29DF3BE-3525-4C6E-9BC4-44E74A907888</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Auto Update and Extension Blacklist</string>
+	<key>PayloadDisplayName</key>
+	<string>Google Chrome - Auto Update and Extension Blacklist</string>
+	<key>PayloadIdentifier</key>
+	<string>com.github.erikberglund.ProfileCreator.C5FB92A3-2A92-4442-9FA9-8FC724E789BF</string>
+	<key>PayloadOrganization</key>
+	<string>The Globe and Mail</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>User</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>C5FB92A3-2A92-4442-9FA9-8FC724E789BF</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
