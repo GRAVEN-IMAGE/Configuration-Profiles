@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DockToggleMaxTimeout</key>
+			<integer>10</integer>
+			<key>DockToggleTimeout</key>
+			<integer>10</integer>
+			<key>EnforcePrivileges</key>
+			<string>user</string>
+			<key>PayloadDisplayName</key>
+			<string>SAP Privileges app</string>
+			<key>PayloadIdentifier</key>
+			<string>corp.sap.privileges</string>
+			<key>PayloadType</key>
+			<string>corp.sap.privileges</string>
+			<key>PayloadUUID</key>
+			<string>22BA2780-A5D7-4E08-A9E8-CBE7624AE883</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RemoteLogging</key>
+			<dict>
+				<key>SyslogOptions</key>
+				<dict>
+					<key>LogFacility</key>
+					<integer>1</integer>
+					<key>LogSeverity</key>
+					<integer>6</integer>
+				</dict>
+			</dict>
+			<key>RequireAuthentication</key>
+			<true/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>This will allow you to elevate your user account to local admin for 10 minutes at a time.</string>
+	<key>PayloadDisplayName</key>
+	<string>Temp Admin Configuration</string>
+	<key>PayloadIdentifier</key>
+	<string>com.globeandmail.privileges</string>
+	<key>PayloadOrganization</key>
+	<string>The Globe and Mail</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>User</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>ED78CFA7-CB9A-446D-83E0-90E7FAE9295B</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>TargetDeviceType</key>
+	<integer>5</integer>
+</dict>
+</plist>
