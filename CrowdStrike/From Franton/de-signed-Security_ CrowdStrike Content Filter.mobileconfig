@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>FilterBrowsers</key>
+			<false/>
+			<key>FilterDataProviderBundleIdentifier</key>
+			<string>com.crowdstrike.falcon.Agent</string>
+			<key>FilterDataProviderDesignatedRequirement</key>
+			<string>identifier "com.crowdstrike.falcon.Agent" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] and certificate leaf[field.1.2.840.113635.100.6.1.13] and certificate leaf[subject.OU] = "X9E956P446"</string>
+			<key>FilterGrade</key>
+			<string>inspector</string>
+			<key>FilterPacketProviderBundleIdentifier</key>
+			<string>com.crowdstrike.falcon.Agent</string>
+			<key>FilterPacketProviderDesignatedRequirement</key>
+			<string>identifier "com.crowdstrike.falcon.Agent" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] and certificate leaf[field.1.2.840.113635.100.6.1.13] and certificate leaf[subject.OU] = "X9E956P446"</string>
+			<key>FilterPackets</key>
+			<false/>
+			<key>FilterSockets</key>
+			<true/>
+			<key>FilterType</key>
+			<string>Plugin</string>
+			<key>Organization</key>
+			<string>CrowdStrike Inc.</string>
+			<key>PayloadDisplayName</key>
+			<string>Web Content Filter</string>
+			<key>PayloadIdentifier</key>
+			<string>2C5CBFD0-7CFE-41CB-95BC-A681F4D293B8</string>
+			<key>PayloadType</key>
+			<string>com.apple.webcontent-filter</string>
+			<key>PayloadUUID</key>
+			<string>2C5CBFD0-7CFE-41CB-95BC-A681F4D293B8</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PluginBundleID</key>
+			<string>com.crowdstrike.falcon.App</string>
+			<key>UserDefinedName</key>
+			<string>Falcon</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>System Extensions</string>
+	<key>PayloadDisplayName</key>
+	<string>Security: CrowdStrike Content Filter</string>
+	<key>PayloadEnabled</key>
+	<true/>
+	<key>PayloadIdentifier</key>
+	<string>863BE372-D1FA-4082-85B2-3B8FE63797C5</string>
+	<key>PayloadOrganization</key>
+	<string>CrowdStrike Inc.</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>863BE372-D1FA-4082-85B2-3B8FE63797C5</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
