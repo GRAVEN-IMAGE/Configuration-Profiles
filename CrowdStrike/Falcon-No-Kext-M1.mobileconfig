@@ -11,7 +11,7 @@
         <key>PayloadOrganization</key>
         <string>CrowdStrike Inc.</string>
         <key>PayloadDisplayName</key>
-        <string>Falcon Profile</string>
+        <string>CrowdStrike Falcon - System Extension Profile</string>
         <key>PayloadDescription</key>
         <string>Kernel Extensions, System Extensions, and Privacy Preferences</string>
         <key>PayloadVersion</key>
