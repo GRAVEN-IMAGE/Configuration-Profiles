@@ -61,7 +61,7 @@
 	<key>PayloadIdentifier</key>
 	<string>E401E49A-AF5F-4678-A53F-960D28E914F3</string>
 	<key>PayloadOrganization</key>
-	<string>Your Organization Here</string>
+	<string>The Globe and Mail</string>
 	<key>PayloadRemovalDisallowed</key>
 	<true/>
 	<key>PayloadScope</key>
