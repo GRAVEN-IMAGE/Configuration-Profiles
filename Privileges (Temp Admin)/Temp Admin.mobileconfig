@@ -8,52 +8,44 @@
 			<key>DockToggleMaxTimeout</key>
 			<integer>10</integer>
 			<key>DockToggleTimeout</key>
-			<integer>10</integer>
-			<key>EnforcePrivileges</key>
-			<string>user</string>
+			<integer>15</integer>
+			<key>PayloadDescription</key>
+			<string>Configures SAP Privileges app settings</string>
 			<key>PayloadDisplayName</key>
 			<string>SAP Privileges app</string>
 			<key>PayloadIdentifier</key>
-			<string>corp.sap.privileges</string>
+			<string>com.github.erikberglund.ProfileCreator.5250E806-AE08-4C22-B556-20D201290F9A.corp.sap.privileges.BF48D837-15F2-4B10-8F1A-DB3B04C0E197</string>
+			<key>PayloadOrganization</key>
+			<string></string>
 			<key>PayloadType</key>
 			<string>corp.sap.privileges</string>
 			<key>PayloadUUID</key>
-			<string>22BA2780-A5D7-4E08-A9E8-CBE7624AE883</string>
+			<string>BF48D837-15F2-4B10-8F1A-DB3B04C0E197</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-			<key>RemoteLogging</key>
-			<dict>
-				<key>SyslogOptions</key>
-				<dict>
-					<key>LogFacility</key>
-					<integer>1</integer>
-					<key>LogSeverity</key>
-					<integer>6</integer>
-				</dict>
-			</dict>
+			<key>ReasonMinLength</key>
+			<integer>10</integer>
+			<key>ReasonRequired</key>
+			<true/>
 			<key>RequireAuthentication</key>
 			<true/>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>This will allow you to elevate your user account to local admin for 10 minutes at a time.</string>
+	<string>Temporarily promote a Standard user to Admin.</string>
 	<key>PayloadDisplayName</key>
-	<string>Temp Admin Configuration</string>
+	<string>Temp Admin</string>
 	<key>PayloadIdentifier</key>
-	<string>com.globeandmail.privileges</string>
+	<string>com.github.erikberglund.ProfileCreator.5250E806-AE08-4C22-B556-20D201290F9A</string>
 	<key>PayloadOrganization</key>
 	<string>The Globe and Mail</string>
-	<key>PayloadRemovalDisallowed</key>
-	<true/>
 	<key>PayloadScope</key>
-	<string>User</string>
+	<string>System</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>ED78CFA7-CB9A-446D-83E0-90E7FAE9295B</string>
+	<string>5250E806-AE08-4C22-B556-20D201290F9A</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
-	<key>TargetDeviceType</key>
-	<integer>5</integer>
 </dict>
 </plist>
